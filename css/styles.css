@@ -1,0 +1,268 @@
+/* ====universal styles==== */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* ====universal styles==== */
+
+/* ====header styles==== */
+
+.page-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 452px;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-list-nav {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
+}
+.page-list-contact {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  padding: 24px 0;
+  margin-right: 76px;
+}
+.accent {
+  color: #2e2f42;
+}
+.page-link-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+.page-link-nav:hover,
+.page-link-nav:focus {
+  color: #404bbf;
+}
+
+.page-contact {
+  font-style: normal;
+}
+.page-link-contact {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.page-link-contact:hover,
+.page-link-contact:focus {
+  color: #404bbf;
+}
+
+/* ====main styles==== */
+
+.page-present {
+  background: #2e2f42;
+}
+.container-page-present {
+  padding: 188px 0 188px 0;
+}
+.page-title-present {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 496px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.page-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+  min-width: 169px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  height: 56px;
+}
+
+.page-btn:hover,
+.page-btn:focus {
+  color: #fff;
+  background: #404bbf;
+}
+
+/* styles section second */
+.section-styles {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.benefits-item {
+  width: calc((100% - 72px) / 4);
+}
+.page-benefis-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+.title-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.text-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* styles section three */
+.page-team {
+  text-align: center;
+  background-color: #f4f4fd;
+}
+
+.title-page-team {
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+.page-team-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+.img-team {
+  margin-bottom: 32px;
+}
+.page-team-item {
+  background: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+.info-team {
+  padding: 32px 0;
+}
+
+/* styles section four */
+
+.title-page-portfolio {
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+.item-portfolio {
+  width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
+}
+.info-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+/* ====page-footer styles==== */
+.page-footer {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.text-footer {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+
+  max-width: 264px;
+}
+.accent-footer {
+  color: #f4f4fd;
+}
