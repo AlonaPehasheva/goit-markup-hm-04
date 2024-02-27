@@ -150,7 +150,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-image.jpg);
+    url(../images/hero-image.jpg);
   background-repeat: no-repeat;
 }
 .container-page-present {
@@ -245,6 +245,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 32px;
 }
 /* styles section three */
 .page-team {
@@ -253,17 +254,22 @@ img {
 }
 
 .title-page-team {
-  padding-top: 120px;
   margin-bottom: 72px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 .page-team-list {
   display: flex;
   justify-content: space-evenly;
   gap: 24px;
 }
-.img-team {
-  margin-bottom: 32px;
-}
+
 .page-team-item {
   background: #fff;
   border-radius: 0px 0px 4px 4px;
@@ -318,7 +324,6 @@ img {
 }
 .item-portfolio {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -370,6 +375,7 @@ img {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  padding: 0;
 }
 .text-footer {
   line-height: 1.5;
@@ -381,11 +387,7 @@ img {
 .accent-footer {
   color: #f4f4fd;
 }
-.icon-footer-container {
-  display: block;
-  margin-left: 120px;
-  align-items: center center;
-}
+
 .text-footer-icon {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
